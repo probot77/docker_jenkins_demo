@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import flask
 app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-  return "Hello form Git+Docker+Jenkins"
+	return "Hello form Git+Docker+Jenkins"
 
